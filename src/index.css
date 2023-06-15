@@ -1,0 +1,114 @@
+.App {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+body{
+  background-color:white;
+}
+
+table {
+  border: 2px solid rgb(4, 4, 4);
+  width: 800px;
+  height: 200px;
+}
+
+th {
+  border-bottom: 1px solid black;
+}
+
+td {
+  text-align: center;
+}
+
+#but{
+  border-radius: 15px;
+  border-width: 0px;
+  background-color:#7862dc;
+ }
+
+#button2{
+  border-radius: 40px;
+  border-width: 0px;
+  background-color: rgb(255, 255, 255);
+}
+
+ 
+#but:hover {
+  background-color: #a58df8;
+}
+ 
+#button2:hover {
+  background-color: rgb(222, 221, 221);
+
+
+}
+
+.add-gst-button-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 560px;
+  transform: translate(1000px);
+  padding: 10px;
+
+}
+
+#gst{
+  border-radius: 19px;
+  border-width: 0px;
+  padding: 10px;
+  width: 95px;
+  background-color: #7862dc;
+}
+#gst:hover{
+  background-color:#a58df8;
+}
+
+#addb{
+  border-radius: 20px;
+  border-width: 0px;
+  padding: 10px;
+  width: 95px;
+  background-color: #0248b8 ;
+  max-height: 35px;
+}
+
+#addb:hover{
+  background-color: #1d64d7;
+  border-radius: 20px;
+}
+#cancelb{
+  border-radius: 20px;
+  border-width: 0px;
+  padding: 10px;
+  width: 95px;
+  max-height: 35px;
+  color: rgb(73, 73, 74);
+  
+
+}
+
+#agst{
+  background-color:  #0248b8 ;
+  color: rgb(255, 255, 255);
+  border-width: 0px;
+}
+#agst:hover{
+  background-color: #1d64d7;
+  color: white;
+  border-width: 0px;
+
+}
+
+.til{
+  color: #0248b8;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+  text-align: center;
+ 
+}
+
+
